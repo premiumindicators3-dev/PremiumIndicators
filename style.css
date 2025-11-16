@@ -1,0 +1,189 @@
+/* Global Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f3f5f9;
+    padding-bottom: 50px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.logo {
+    width: 120px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+}
+
+/* Enquiry Section */
+.enquiry {
+    margin: 25px auto;
+    text-align: center;
+}
+
+.enquiry h2 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 8px;
+}
+
+.enquiry p {
+    font-size: 18px;
+    color: #444;
+}
+
+/* Grid Container */
+.container {
+    width: 95%;
+    max-width: 1100px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+}
+
+/* Premium Gradient Card */
+.premium-card {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 25px;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.25);
+}
+
+.premium-card h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 26px;
+}
+
+.premium-card img {
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+.features {
+    background: rgba(255,255,255,0.15);
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* Normal Cards */
+.card {
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 14px;
+    margin-bottom: 14px;
+}
+
+/* Text Box */
+.box, .points {
+    background: #f3f4f6;
+    padding: 15px;
+    border-radius: 14px;
+    margin-bottom: 15px;
+}
+
+/* Price & Lifetime */
+.price {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 700;
+    color: #ff5722;
+    text-align: center;
+}
+
+.lifetime {
+    color: #087f23;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+/* Buttons */
+.btn {
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    background: linear-gradient(135deg, #ff9800, #ff3d00);
+    color: white;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* WhatsApp Button */
+.whatsapp {
+    display: block;
+    text-align: center;
+    background: #25D366;
+    padding: 12px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.whatsapp:hover {
+    background: #1da851;
+}
+
+.after-pay {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 15px;
+}
+/* Image Row for Premium Card */
+.img-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.img-row img {
+    width: 50%;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .img-row {
+        flex-direction: column;
+    }
+
+    .img-row img {
+        width: 100%;
+    }
+}
