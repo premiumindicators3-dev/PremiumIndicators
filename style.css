@@ -8,7 +8,6 @@
 
 body {
     background: #f3f5f9;
-    padding-bottom: 50px;
 }
 
 /* Header */
@@ -186,4 +185,36 @@ body {
     .img-row img {
         width: 100%;
     }
+}
+.footer {
+  background: #222;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.footer a {
+  color: #00eaff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Simple phone icon */
+.phone-icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-right: 6px;
+  background: url('https://cdn-icons-png.flaticon.com/512/724/724664.png') 
+              no-repeat center/cover;
+  vertical-align: middle;
+}
+.contact-note {
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.8;
 }
